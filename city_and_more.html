@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SICC 2017</title>
+    <link rel="stylesheet" href="app/app.css"/>
+    <link rel="stylesheet" href="app/animate.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+    <link rel="icon" href="app/assets/ieee-black.png">
+</head>
+
+<body>
+
+<div class="vertical-center">
+
+    <div id="head" class="panel-heading">
+        <img id="sicc-img" src="app/assets/logo/siccx.png">
+        <img id="ark-img" src="app/assets/Arkadius.png">
+        <img id="udem-img" src="app/assets/udem.png">
+    </div>
+    <div id="head2">
+      <img id="lases-img" src="app/assets/organizan/lases2.png">
+    </div>
+
+    <nav id="menu" class="navbar-sicc">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="a-menu"><a href="index.html">Inicio</a></li>
+                <li class="a-menu"><a href="about.html">Acerca de SICC</a></li>
+                <li class="a-menu"><a href="committee.html">Comité</a></li>
+                <li class="a-menu"><a href="program.html">Programa</a></li>
+                <li class="a-menu"><a href="registration.html">Registro</a></li>
+                <li class="a-menu"><a href="city_and_more.html">Ciudad y Mas</a></li>
+                <li class="a-menu"><a href="patrons.html">Apoyo y patrocinio</a></li>
+                <li class="a-menu"><a href="tutoriales.html">tutoriales y maratones</a></li>
+                <li class="a-menu"><a href="speakers.html">Speakers</a></li>
+                <li class="a-menu"><a href="photos.html">Fotos y videos</a></li>
+                <li class="a-menu"><a href="memorias.html">Memorias y ppts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="content">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="app/assets/medellin1.jpg">
+                </div>
+
+                <div class="item">
+                    <img src="app/assets/medellin2.jpg">
+                </div>
+
+                <div class="item">
+                    <img src="app/assets/medellin3.jpg">
+                </div>
+
+                <div class="item">
+                    <img src="app/assets/medellin4.jpg">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <div id="articles-venues" class="panel-body">
+
+          <!-- Table of hotels -->
+          <table class="table table_city_and_more table-striped">
+            <thead>
+              <tr>
+                <th>Hotel</th>
+                <th>Tarifa COP</th>
+                <th>Tarifa USD</th>
+                <th>URL</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Casa Club del egresado</td>
+              <td>160.000 noche</td>
+              <td>56 night</td>
+              <td><a href="https://www.udem.edu.co/index.php/servicios/casa-club-del-egresado">https://www.udem.edu.co/index.php/servicios/casa-club-del-egresado</a></td>
+            </tr>
+            <tr>
+              <td>Poblado Plaza</td>
+              <td>230.000 noche</td>
+              <td>80 night</td>
+              <td><a href="http://www.pobladoplazahotel-medellin.com">http://www.pobladoplazahotel-medellin.com</a></td>
+            </tr>
+            <tr>
+              <td>Poblado Alejandría</td>
+              <td>235.000 noche</td>
+              <td>81 night</td>
+              <td><a href="http://www.pobladoalejandriahotelmedellin.com/">http://www.pobladoalejandriahotelmedellin.com/</a></td>
+            </tr>
+            <tr>
+              <td>Inntu</td>
+              <td>235.000 noche</td>
+              <td>81 night</td>
+              <td><a href="http://www.inntuhotel.com/">http://www.inntuhotel.com/</a></td>
+            </tr>
+            <tr>
+              <td>Bolivariana Plaza</td>
+              <td>194.000 noche</td>
+              <td>67 night</td>
+              <td><a href="http://www.hotelbolivarianaplaza.com/">http://www.hotelbolivarianaplaza.com/</a></td>
+            </tr>
+          </table>
+          <br>
+          <!-- Table of tours -->
+          <table class="table table_city_and_more table-striped">
+            <thead>
+              <tr>
+                <th>Contacto Tour</th>
+                <th>Cargo</th>
+                <th>Empresa</th>
+                <th>Celulares</th>
+                <th>Correo</th>
+                <th>Direccion Web</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Juan Pablo Londoño Arboleda</td>
+              <td>Director Comercial y Operativo</td>
+              <td>Operadora Turismo en Medellín</td>
+              <td>3104584429 - 3104594044</td>
+              <td><a href="">administrativa@turismoenmedellin.com</a></td>
+              <td><a href="https://www.turismoenmedellin.com">https://www.turismoenmedellin.com</a></td>
+            </tr>
+          </table>
+            <br>
+
+            <div class="col-md-6">
+                <div id="map"></div>
+            </div>
+            <div class="col-md-6">
+                <h1>¿Que hacer cerca al evento?</h1>
+                <div id="list-venues" class="pre-scrollable"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="footer" class="panel-footer">
+        <h3>Co-organizadores:</h3>
+        <img id="a1" src="app/assets/organizan/uden_m.png" onclick="window.open('http://medellin.unal.edu.co/','_blank')">
+        <img id="a2" src="app/assets/organizan/cidenet.png" onclick="window.open('','_blank')">
+        <img id="a3" src="app/assets/organizan/politecnico.png" onclick="window.open('http://www.politecnicojic.edu.co/','_blank')">
+        <img id="a4" src="app/assets/organizan/auburn2.png" onclick="window.open('http://www.auburn.edu/','_blank')">
+        <img id="a5" src="app/assets/organizan/UCN_chile.png" onclick="window.open('http://www.ucn.cl/','_blank')">
+        <img id="a6" src="app/assets/organizan/udea.png" onclick="window.open('http://www.udea.edu.co/','_blank')">
+        <h4>© Copyright 2017 SICC – Todos los derechos reservados.</h4>
+    </div>
+
+</div>
+
+
+
+
+<!--dependencias-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
+
+<!--Aplicacion-->
+<script src="app/map.js"></script>
+<script src="app/venues.js"></script>
+<script src="app/animation.js"></script>
+
+</body>
+</html>
