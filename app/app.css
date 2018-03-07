@@ -336,3 +336,9 @@ padding-top: 50px;
 .timeline-panel {
   padding-right: 80px !important;
 }
+
+.carousel-inner,.carousel,.item,.container,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+}
