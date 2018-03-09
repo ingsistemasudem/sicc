@@ -233,10 +233,6 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
 }
-#content #authors a {
-    font-size: 20px;
-    margin-left: 5%;
-}
 #content #register{
     background-color: white;
 }
@@ -341,4 +337,25 @@ padding-top: 50px;
   height:100%;
   width:100%;
   background-position:center center;
+}
+
+.cfp__list{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cfp__template,
+.cfp__template:hover {
+  color: white;
+  text-decoration: underline;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cfp__link,
+.cfp__link:hover {
+  color: white;
+  text-decoration: underline;
 }
