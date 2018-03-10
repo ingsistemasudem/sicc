@@ -41,10 +41,8 @@ body {
 }
 
 #head #ark-img {
-    height: 100px;
     width: 220px;
-    margin-left: -30px;
-    margin-top: 40px;
+    margin: 40px 0;
 }
 #head #udem-img {
     height: 170px;
@@ -358,4 +356,17 @@ padding-top: 50px;
 .cfp__link:hover {
   color: white;
   text-decoration: underline;
+}
+
+.cfp__english_link,
+.cfp__english_link a {
+  color: #FFA700;
+  text-align: right;
+  margin-right: 3%;
+}
+
+.cfp__english_link a,
+.cfp__english_link a:hover {
+  text-decoration: underline;
+  color: #FFA700;
 }
